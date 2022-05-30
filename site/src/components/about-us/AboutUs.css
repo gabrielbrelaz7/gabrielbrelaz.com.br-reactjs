@@ -1,0 +1,34 @@
+.about {
+    background-color: #f8f8f8;
+}
+.about img {
+    margin: 30px auto;
+    display: block;
+}
+
+
+.about span {
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.about p {
+
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+
+
+.title {
+    position: relative;
+    margin-bottom: 100px;
+}
+.title:after {
+    content: '';
+    height: 5px;
+    width: 40px;
+    background-color: #62aa94;
+    display: flex;
+    margin: 20px auto 0 auto;
+}
