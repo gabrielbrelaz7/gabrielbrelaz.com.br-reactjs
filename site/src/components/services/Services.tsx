@@ -1,4 +1,7 @@
 import "../services/Services.css";
+import webdevelopment from "../../images/homepage/66.jpg";
+import webdesign from "../../images/homepage/55.jpg";
+import illustrators from "../../images/homepage/4.jpg"
 
 export const Services = () => {
 
@@ -14,7 +17,7 @@ export const Services = () => {
                             <div className="item">
                                 <div className="ubutia-card">
                                     <div className="ubutia-card-header">
-                                        <img className="img-responsive" src="assets/images/homepage/66.jpg"></img>
+                                        <img className="img-responsive" src={webdevelopment} />
                                     </div>
                                     <div className="ubutia-card-content">
                                         <h5>Desenvolvimento web</h5>
@@ -37,7 +40,7 @@ export const Services = () => {
                                 <div className="ubutia-card">
 
                                     <div className="ubutia-card-header">
-                                        <img className="img-responsive" src="assets/images/homepage/55.jpg"></img>
+                                        <img className="img-responsive" src={webdesign} />
                                     </div>
 
                                     <div className="ubutia-card-content">
@@ -62,7 +65,7 @@ export const Services = () => {
                             <div className="item">
                                 <div className="ubutia-card">
                                     <div className="ubutia-card-header">
-                                        <img className="img-responsive" src="assets/images/homepage/4.jpg"></img>
+                                    <img className="img-responsive" src={illustrators} />
                                     </div>
                                     <div className="ubutia-card-content">
                                         <h5>Ilustrações Digitais</h5>

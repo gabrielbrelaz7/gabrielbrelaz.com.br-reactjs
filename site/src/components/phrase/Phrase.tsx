@@ -1,4 +1,6 @@
 import "../phrase/Phrase.css";
+import quote from '../../images/homepage/quote.png';
+import mouse from '../../images/homepage/mouse.png';
 
 export const Phrase = () => {
 
@@ -8,13 +10,13 @@ export const Phrase = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
-                            <img className="quote" src="assets/images/homepage/quote.png"></img>
+                            <img className="quote" src={quote} />
                             <p>
                                 A quem muito foi dado, muito será exigido; e a quem muito foi confiado, muito
                                 mais será pedido.
                             </p>
                             <p className="author">Jesus Cristo</p>
-                            <img src="assets/images/homepage/mouse.png"></img>
+                            <img src={mouse} />
                         </div>
                     </div>
                 </div>

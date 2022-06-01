@@ -16,6 +16,8 @@
 }
 
 
+
+
 .ubutia-card .ubutia-card-header .card-icon:after {
     transition: all 0.3s ease-in-out;
 }
@@ -24,6 +26,26 @@
     width: 120px;
     top: -1px;
     left: -1px;
+}
+
+
+.graphic-design {
+    background: transparent url("../../images/homepage/graphic-design.png") no-repeat;
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.webdevelopment {
+    background: transparent url("../../images/homepage/webdevelopment.png") no-repeat;
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.printing {
+    background: transparent url("../../images/homepage/printing.png") no-repeat;
+    width: 120px;
+    height: 120px;
+    display: block;
 }
 
 
