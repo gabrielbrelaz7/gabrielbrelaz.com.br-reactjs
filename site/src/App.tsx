@@ -1,4 +1,5 @@
 import React from 'react';
+import './server';
 import './App.css';
 import Homepage from './pages/homepage/homepage';
 

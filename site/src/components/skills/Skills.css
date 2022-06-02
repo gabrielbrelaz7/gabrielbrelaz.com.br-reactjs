@@ -11,13 +11,12 @@
 }
 
 
-.carousel .row {
-  margin: 10px 0;
-  margin: 20px 0;
+.carousel div {
+  margin: 5px 0;
 }
 
 .slider {
-  padding: 4% 3% 0;
+  padding: 4%;
 }
 
 .slider h4 {

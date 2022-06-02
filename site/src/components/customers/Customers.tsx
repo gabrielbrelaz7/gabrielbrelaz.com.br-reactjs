@@ -1,7 +1,18 @@
 import "../customers/Customers.css";
 import customer from "../../images/homepage/8.jpg";
+import { useEffect, useState } from "react";
 
 export const Customers = () => {
+
+
+    const [customers, setCustomers] = useState([]);
+
+
+    useEffect(() => {
+        fetch('/api/customers')
+        .then(res => res.json())
+        .then(json => setCustomers(json.customers));
+    }, []);
 
     return (
         <div>
@@ -11,16 +22,24 @@ export const Customers = () => {
                     <h2 className="title">CLIENTES ATENDIDOS</h2>
                     <div className="row">
 
+
+                    {customers.map((customer, index) => (
                         <div className="col-sm-4">
                             <div className="ubutia-card">
                                 <div className="ubutia-card-header">
-                                    <img className="img-responsive" src={customer} />
+                                    <img className="img-responsive" src={require(`../../images/homepage/${customer['image']}`)} />
+                                </div>
+
+                                <div>
+                                    <h5>
+                                        {customer['name']}
+                                    </h5>
                                 </div>
 
                                 <div className="ubutia-card-content">
 
                                     <p>
-                                        Desenvolvimento e web design com Wordpress
+                                        {customer['description']}
                                     </p>
 
                                 </div>
@@ -30,12 +49,11 @@ export const Customers = () => {
                                 </div>
                             </div>
                         </div>
+                    ))}
 
-                 
                     </div>
                 </div>
             </section>
-
         </div>
     );
 };

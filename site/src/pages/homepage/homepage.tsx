@@ -8,6 +8,7 @@ import { Skills } from '../../components/skills/Skills';
 import { Topo } from '../../components/top/Topo';
 import { WhatDo } from '../../components/what-do/WhatDo';
 
+
 function Homepage() {
   return (
     <div className="App">
