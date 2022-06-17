@@ -1,0 +1,74 @@
+.carousel .slide img {
+  width: 60%;
+}
+
+.carousel-status {
+  display: none;
+}
+
+.carousel.carousel-slider {
+  height: 400px;
+}
+
+
+.carousel div {
+  margin: 5px 0;
+}
+
+.slider {
+  padding: 4%;
+}
+
+.slider h4 {
+  margin-bottom: 40px;
+}
+
+section#expertise {
+  padding: 0;
+}
+
+
+.expert {
+    background-color: #f8f8f8;
+}
+.expert p {
+    line-height: 200%;
+}
+.expert .bg-img {
+    background-image: url("../../images/homepage/2.jpg");
+    background-position-x: 85%;
+}
+.expert .bg-img:after {
+    display: none;
+}
+.expert .section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.title:after {
+  content: '';
+  height: 5px;
+  width: 40px;
+  background-color: #62aa94;
+  display: flex;
+  margin: 20px auto 0 auto;
+}
+
+
+@media (max-width: 767px) {
+
+    .expert .bg-img {
+        display: none;
+    }
+
+    .expert .owl-carousel .owl-item img {
+        width: 60px;
+        display: inline-flex;
+    }
+
+}

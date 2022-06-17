@@ -1,0 +1,3 @@
+.card-clientes:nth-child(2n) {
+    flex-direction: row-reverse;
+}

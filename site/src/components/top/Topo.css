@@ -1,0 +1,52 @@
+
+.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bg-img div {
+    z-index: 1;
+    position: relative;
+}
+.bg-img:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+}
+
+
+.header {
+    background-image: url('/src/images/homepage/1.jpg');
+    height: 100vh;
+    position: relative;
+    min-height: 659px;
+}
+
+.intro-box {
+    height: 100vh;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+.intro {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 8%;
+}
+.header h1 {
+    margin: 0;
+}
+.header h1,
+.header p {
+    color: #fff;
+    letter-spacing: 2px;
+}
+.header p {
+    font-size: 32px;
+    padding-top: 0;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,37 @@
+.title {
+    position: relative;
+    margin-bottom: 100px;
+}
+.title:after {
+    content: '';
+    height: 5px;
+    width: 40px;
+    background-color: #62aa94;
+    display: flex;
+    margin: 20px auto 0 auto;
+}
+
+.ubutia-card {
+    text-align: center;
+}
+
+.ubutia-card .ubutia-card-header {
+    margin-bottom: 45px;
+}
+
+/*Button*/
+.ubutia-btn {
+    border-color: #51c2b9;
+    font-style: italic;
+    color: #51c2b9;
+    border-radius: 0;
+    letter-spacing: 3px;
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.ubutia-btn:hover {
+    background-color: #51c2b9;
+    color: #fff;
+}

@@ -1,0 +1,56 @@
+.ubutia-card {
+    text-align: center;
+
+}
+.ubutia-card .ubutia-card-header {
+    margin-bottom: 45px;
+}
+
+.ubutia-card .ubutia-card-header .card-icon {
+    border-radius: 100%;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    position: relative;
+}
+
+
+
+
+.ubutia-card .ubutia-card-header .card-icon:after {
+    transition: all 0.3s ease-in-out;
+}
+.ubutia-card:hover .ubutia-card-header .card-icon:after {
+    height: 120px;
+    width: 120px;
+    top: -1px;
+    left: -1px;
+}
+
+
+.graphic-design {
+    background: transparent url("../../images/homepage/graphic-design.png") no-repeat;
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.webdevelopment {
+    background: transparent url("../../images/homepage/webdevelopment.png") no-repeat;
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.printing {
+    background: transparent url("../../images/homepage/printing.png") no-repeat;
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+
+@media (max-width: 767px) {
+    .ubutia-card {
+        margin-bottom: 60px;
+    }
+}

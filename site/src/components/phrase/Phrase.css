@@ -1,0 +1,38 @@
+.ubutia-quote {
+    /* background-image: url("../images/homepage/3.jpg"); */
+    /*padding: 120px 0;*/
+    color: #fff;
+    font-style: italic;
+}
+.ubutia-quote p {
+    font-size: 32px;
+    color: #fff;
+}
+.ubutia-quote .quote {
+    margin-bottom: 40px;
+}
+.ubutia-quote .author {
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+
+.bg-img {
+    background-image: url("../../images/homepage/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.bg-img div {
+    z-index: 1;
+    position: relative;
+}
+.bg-img:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+}
